@@ -1,0 +1,208 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+.body-wrapper
+{
+    min-height: 100%;
+}
+
+footer
+{
+    width: 100%;
+    background: rgb(124, 124, 124);
+    bottom: 0;
+    
+}
+
+.footer-wrapper
+{
+    height: 300px;
+  
+    margin: 0 auto;
+    background: rgb(124, 124, 124);
+    
+    max-width: 1170px;
+    display: flex;
+    bottom: 0;
+}
+
+.footer-section
+{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.left
+{
+    width: 40%;
+    height: 300px;
+    background: rgb(124, 124, 124);
+    margin: 0 5px;
+}
+
+.center
+{
+    margin: 0 5px;
+    width: 40%;
+    background: rgb(124, 124, 124);
+}
+
+.right
+{
+    margin: 0 5px;
+    width: 50%;
+    background: rgb(124, 124, 124);
+}
+
+.logo
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0 10px 30px;
+}
+.left span
+{
+    color: cyan;
+    font-size: 33px;
+}
+
+.left p
+{
+    font-size: 18px;
+    margin: 20px 0 0 30px;
+    color: white;
+    opacity: 0.8;
+}
+
+.center h2
+{
+   font-size: 25px;
+   font-weight: 550;
+   color: white;
+   margin: 20px 10px 0 30px;
+}
+
+.center ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 300px;
+}
+
+.center ul li
+{
+    list-style: none;
+    
+}
+.center ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+ul li .fa-facebook
+{
+    padding: 10px 6px;
+
+}
+.center ul li a:hover
+{
+    background: rgba(255, 255, 255, .7);
+    color: rgb(156, 154, 154);
+    padding: 15px 15px;
+    transition: all .5s;
+    
+}
+.center ul li a:active
+{
+    margin-top: 10px;
+}
+
+
+.right h2
+{
+    font-size: 25px;
+    font-weight: 530;
+    margin: 20px 0 10px 30px;
+    color: white;
+}
+
+.right input
+{
+    width: 60%;
+    height: 20px;
+    padding-top: 13px;
+    margin: 10px 0 5px 30px;
+    border-radius: 2px ;
+    padding-bottom: 13px;
+    border: none;
+}
+
+.right textarea
+{
+    
+    width: 70%;
+    margin: 10px 0 5px 30px;
+    padding: 10px 0 80px;
+    border-radius: 5px ;
+}
+
+button
+{
+    width: 60px;
+    height: 30px;
+    margin: 0 0 0 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 650;
+}
+
+button:hover
+{
+    background-color: white;
+    cursor: pointer;
+}
+
+button:active
+{
+    margin: 3px 0 0 33px;
+}
+
+.copy-right
+{
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    position: absolute;   
+    background: rgb(61, 61, 59);
+}
+.copy-right p
+{
+    margin-top: 22px;
+}
+
+
+
+footer
+{
+    position: relative;
+}
+
+

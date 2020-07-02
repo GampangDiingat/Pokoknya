@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+        
+        width: 100%;
+}
+.container
+{
+    
+    width: 100%;
+
+    background: url("aset-gambar/makanan.png");
+    margin: 0 auto;
+    background-size: cover;
+    width: 100%;
+    height: 100%
+    
+}
+/* header */
+header
+{
+    width: 100%;
+    height: 65px;
+    background: rgb(159, 211, 211);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    line-height: 65px;
+    float: left;
+    position: sticky;
+    top: 0;
+}
+
+header h2
+{
+    font-size: 28px;
+    margin-left: 39px;
+    color: white;
+}
+header span
+{
+    color: cyan;
+}
+
+nav ul
+{
+    display: flex;
+    margin-right: 40px;
+}
+nav ul li 
+{
+    list-style: none;
+    font-size: 21px;
+    margin: 0 28px;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    transform: scale(1);
+    padding: 10px 8px;   
+}
+nav ul li a:hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+    color: black;
+    padding: 19.8px 10px;
+    background-color: rgba(255,255,255,1);
+}
+nav ul li a:active
+{
+    background-color: gray;
+    transition: .4s;
+    padding: 19.8px 10px;
+    color: white;
+}
+
+.main-content .image
+{
+    float: left;
+    margin-top: 100px;
+}
+.main-content .text
+{
+    float: right;
+}

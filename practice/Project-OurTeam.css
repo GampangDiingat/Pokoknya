@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team-member h3
+{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+}
+
+img
+{
+    border-radius: 50%;
+    
+}
+
+.container
+{
+    max-width: 900px;
+    background: cyan;
+    margin: 0 auto;
+}
+
+body
+{
+    background: cyan;
+}
+
+.wrapper
+{
+    margin-top: 60px;
+    text-align: center;
+}
+.wrapper h1
+{
+    font-size: 48px;
+    color: white;
+    margin-bottom: 25px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 550;
+}
+
+.wrapper .our-team
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/* team member */
+.team-member
+{
+    
+    width: 30%;
+       
+    
+}
+
+
+
+.member-image
+{
+    align-items: center;
+    position: relative;
+}
+.social-media
+{
+    line-height: 90px;
+    position: absolute;
+    top: 1px;
+    left: 31.5px;
+    height: 97%;
+    border-radius: 50%;
+    width: 77.5%;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(.5);
+    opacity: 0;
+    cursor: pointer;
+    
+}
+.social-media:hover
+{
+    transform: scale(1);
+    opacity: 1;
+    transition: .95s;    
+}
+
+.social-media .item
+{
+    font-size: 25px;
+    margin: 0 7px;
+    color: rgba(255, 255, 255, .8);
+    
+}
+
+
+
+
+
+.atas
+{
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    padding: 10px 1px 30px;
+    background: white;
+}
+
+
+.bawah
+{
+    
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 10px 1px 30px;
+}
+
+.team-member h3
+{
+    margin: 5px 1px;
+}
+.team-member span
+{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.team-member p
+{
+    margin: 3px 10px;
+}

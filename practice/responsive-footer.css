@@ -1,0 +1,262 @@
+@media screen and (max-width: 800px){
+
+
+    .left
+    {
+        width: 48%;
+        height: 300px;
+        background: rgb(124, 124, 124);
+        margin: 0 1px;
+    }
+    
+    .center
+    {
+        margin: 0 1px;
+        width: 48%;
+        background: rgb(124, 124, 124);
+    }
+    
+    .right
+    {
+        margin: 0 1px;
+        width: 50%;
+        background: rgb(124, 124, 124);
+    }
+
+.logo
+{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0 5px 18px;
+}
+.left span
+{
+    color: cyan;
+    font-size: 28px;
+}
+
+.left p
+{
+    font-size: 18px;
+    margin: 15px 0 0 10px;
+    color: white;
+    opacity: 0.8;
+}
+
+.center h2, .right h2
+{
+   font-size: 25px;
+   font-weight: 550;
+   color: white;
+   margin: 10px 5px 0 20px;
+}
+
+
+
+.right input
+{
+    width: 60%;
+    height: 20px;
+    padding-top: 13px;
+    margin: 10px 0 5px 30px;
+    border-radius: 2px ;
+    padding-bottom: 13px;
+    border: none;
+}
+
+.right textarea
+{
+    
+    width: 70%;
+    margin: 10px 0 5px 30px;
+    padding: 10px 0 37px;
+    border-radius: 5px ;
+}
+
+button
+{
+    width: 60px;
+    height: 30px;
+    margin: 0 0 0 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 650;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 670px)
+{
+
+
+    .footer-wrapper
+    {
+        height: auto;
+        flex-direction: column;
+        flex: none;
+        margin: 0 auto;
+        background: rgb(124, 124, 124);
+        
+        width: 100%;       
+        position: relative;
+        
+        bottom: 0;
+    }
+    
+    .footer-section
+    {
+        
+        
+        width: 100%;
+        height: 300px;
+        
+    }
+    
+    .copy-right
+    {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+        position: absolute;   
+        background: rgb(61, 61, 59);
+    }
+    .copy-right p
+    {
+        margin-top: 22px;
+    }
+    
+    
+    
+    footer
+    {
+        position: relative;
+    }
+
+
+
+    .logo
+    {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        margin: 20px 0 10px 30px;
+    }
+    .left span
+    {
+        color: cyan;
+        font-size: 33px;
+    }
+    
+    .left p
+    {
+        font-size: 18px;
+        margin: 20px 30px 0 30px;
+        color: white;
+        opacity: 0.8;
+    }
+
+    
+.center h2
+{
+   font-size: 25px;
+   font-weight: 550;
+   color: white;
+   margin: 20px 10px 0 30px;
+}
+
+.center ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 300px;
+}
+
+.center ul li
+{
+    list-style: none;
+    
+}
+.center ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+ul li .fa-facebook
+{
+    padding: 10px 6px;
+
+}
+.center ul li a:hover
+{
+    background: rgba(255, 255, 255, .7);
+    color: rgb(156, 154, 154);
+    padding: 15px 15px;
+    transition: all .5s;
+    
+}
+.center ul li a:active
+{
+    margin-top: 10px;
+}
+
+
+.right h2
+{
+    font-size: 25px;
+    font-weight: 530;
+    margin: 20px 0 10px 30px;
+    color: white;
+}
+
+.right input
+{
+    width: 60%;
+    height: 20px;
+    padding-top: 13px;
+    margin: 10px 0 5px 30px;
+    border-radius: 2px ;
+    padding-bottom: 13px;
+    border: none;
+}
+
+.right textarea
+{
+    
+    width: 70%;
+    margin: 10px 0 5px 30px;
+    padding: 10px 0 80px;
+    border-radius: 5px ;
+}
+
+button
+{
+    width: 60px;
+    height: 30px;
+    margin: 0 0 0 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 650;
+}
+
+.center, .left , .right
+{
+    border: 2px solid rgb(77, 76, 76);
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.footer-wrapper
+{
+    background: white;
+}
+
+}
